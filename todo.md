@@ -158,3 +158,33 @@
 - [ ] Security headers
 - [ ] Dependency audit
 - [ ] Code review checklist
+
+
+## Fase 9: Implementação de Rotas API e Workers
+- [x] Criar sistema de workers com Bull para processamento assíncrono
+- [x] Implementar worker para processamento de documentos
+- [x] Criar rotas tRPC para autenticação (register, login, refresh, logout)
+- [x] Criar rotas tRPC para projetos (CRUD e usage)
+- [ ] Criar rotas tRPC para documentos (upload, list, delete)
+- [ ] Criar rotas tRPC para chat (send message, get history)
+- [ ] Criar rotas tRPC para billing (get usage, add-on purchase)
+- [ ] Implementar web crawling worker
+- [ ] Implementar embedding generation worker
+- [ ] Implementar cleanup worker
+
+## Fase 10: Testes Unitários
+- [x] Testes para autenticação (password, JWT, rate limiting)
+- [x] Testes para RAG pipeline (chunking, filtering, context building)
+- [x] Testes para billing (usage tracking, limits, cost calculation)
+- [ ] Testes para rotas API
+- [ ] Testes de integração end-to-end
+- [ ] Testes de segurança (SQL injection, XSS, prompt injection)
+- [ ] Coverage >80% em módulos críticos
+
+## Fase 11: Documentação Adicional
+- [ ] API.md com documentação de endpoints
+- [ ] DEPLOYMENT.md com guia de deploy
+- [ ] CONTRIBUTING.md para contribuições
+- [ ] Exemplos de uso (curl, JavaScript client)
+- [ ] Troubleshooting guide
+- [ ] Performance tuning guide
