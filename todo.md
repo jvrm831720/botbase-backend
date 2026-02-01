@@ -165,10 +165,10 @@
 - [x] Implementar worker para processamento de documentos
 - [x] Criar rotas tRPC para autenticação (register, login, refresh, logout)
 - [x] Criar rotas tRPC para projetos (CRUD e usage)
-- [ ] Criar rotas tRPC para documentos (upload, list, delete)
-- [ ] Criar rotas tRPC para chat (send message, get history)
-- [ ] Criar rotas tRPC para billing (get usage, add-on purchase)
-- [ ] Implementar web crawling worker
+- [x] Criar rotas tRPC para documentos (upload, list, delete)
+- [x] Criar rotas tRPC para chat (send message, get history)
+- [x] Criar rotas tRPC para billing (get usage, add-on purchase)
+- [x] Implementar web crawling worker
 - [ ] Implementar embedding generation worker
 - [ ] Implementar cleanup worker
 
@@ -177,7 +177,7 @@
 - [x] Testes para RAG pipeline (chunking, filtering, context building)
 - [x] Testes para billing (usage tracking, limits, cost calculation)
 - [ ] Testes para rotas API
-- [ ] Testes de integração end-to-end
+- [x] Testes de integração end-to-end (workflows completos)
 - [ ] Testes de segurança (SQL injection, XSS, prompt injection)
 - [ ] Coverage >80% em módulos críticos
 
