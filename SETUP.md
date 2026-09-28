@@ -14,7 +14,7 @@ Before setting up Botbase Backend, ensure you have the following installed:
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/botbase-backend.git
+git clone https://github.com/jvrm831720/botbase-backend.git
 cd botbase-backend
 ```
 
